@@ -20,6 +20,7 @@ nav {
 }
 
 .show-nav {
+  z-index: 10;
   display: flex;
   flex-direction: column;
   justify-content:left;
@@ -41,5 +42,18 @@ nav button {
 #hamburger-icon {
   height: 90%;
   cursor: pointer;
-  z-index: 1;
+}
+
+#navbar-space-button {
+  position: fixed;
+  z-index: 10;
+  inset: 0 calc(100vw - 6rem) 0 0;
+  background-color: rgba(66, 66, 66, 0.347);
+}
+
+#exit-hamburger-menu {
+  position: absolute;
+  inset: 0 0 auto auto;
+  width: calc(var(--header-height) - .5rem);
+  margin: .5rem;
 }

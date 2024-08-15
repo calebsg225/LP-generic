@@ -1,6 +1,6 @@
 import helpers from "../helpers/helpers.js";
-import navbar from "./navbar.js";
-import { onHamburgerToggle } from "../functions/headerFunctions.js";
+import { navbar, navbarSpaceButton } from "./navbar.js";
+import { onHamburgerOpen } from "../functions/headerFunctions.js";
 
 const header = document.createElement('header');
 header.id = 'header-component';
@@ -14,7 +14,7 @@ const hamburgerIcon = document.createElement('img');
 hamburgerIcon.id = 'hamburger-icon';
 hamburgerIcon.src = './assets/hamburger_icon.png';
 hamburgerIcon.alt = 'hamburger_icon';
-hamburgerIcon.onclick = (e) => onHamburgerToggle(e);
+hamburgerIcon.onclick = () => onHamburgerOpen();
 
 helpers.appendElements([logo, navbar, hamburgerIcon], header);
 

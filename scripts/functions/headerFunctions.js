@@ -1,12 +1,16 @@
 // functions for interactive elements of the header component
 
-const onHamburgerToggle = (e) => {
+const toggleHamburger = (className) => {
   const navElement = document.getElementById('header-navbar');
-  navElement.className = (
-    navElement.classList.contains('hide-nav')
-    ? 'show-nav'
-    : 'hide-nav'
-  );
+  navElement.className = className;
 }
 
-export {onHamburgerToggle};
+const onHamburgerOpen = () => {
+  toggleHamburger('show-nav');
+}
+
+const onHamburgerClose = () => {
+  toggleHamburger('hide-nav');
+}
+
+export {onHamburgerOpen, onHamburgerClose};
