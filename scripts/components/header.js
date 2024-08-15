@@ -1,5 +1,6 @@
 import helpers from "../helpers/helpers.js";
 import navbar from "./navbar.js";
+import { onHamburgerToggle } from "../functions/headerFunctions.js";
 
 const header = document.createElement('header');
 header.id = 'header-component';
@@ -7,8 +8,14 @@ header.id = 'header-component';
 const logo = document.createElement('img');
 logo.id = 'generic-logo';
 logo.src = './assets/generic-logo-2.png';
-logo.alt = 'generic-logo';
+logo.alt = 'generic_logo';
 
-helpers.appendElements([logo, navbar], header);
+const hamburgerIcon = document.createElement('img');
+hamburgerIcon.id = 'hamburger-icon';
+hamburgerIcon.src = './assets/hamburger_icon.png';
+hamburgerIcon.alt = 'hamburger_icon';
+hamburgerIcon.onclick = (e) => onHamburgerToggle(e);
+
+helpers.appendElements([logo, navbar, hamburgerIcon], header);
 
 export default header;

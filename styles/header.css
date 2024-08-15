@@ -5,8 +5,41 @@
   align-items: center;
   justify-content: space-between;
   padding: .5rem;
+  position: relative;
 }
 
 #generic-logo {
   height: 100%;
+}
+
+nav {
+}
+
+.hide-nav {
+  display: none;
+}
+
+.show-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items: stretch;
+  position: fixed;
+  inset: 0 0 0 6rem;
+  background-color: rgb(104, 104, 104);
+  padding-top: calc(var(--header-height) + 1rem);
+}
+
+nav button {
+  background-color: rgb(159, 75, 75);
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  margin: .5rem;
+}
+
+#hamburger-icon {
+  height: 90%;
+  cursor: pointer;
+  z-index: 1;
 }

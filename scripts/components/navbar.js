@@ -1,6 +1,8 @@
 import helpers from "../helpers/helpers.js";
 
 const navbar = document.createElement('nav');
+navbar.id = 'header-navbar';
+navbar.className = 'hide-nav';
 
 const mainTitles = ['Services', 'About', 'Contact', 'Join Today'];
 
