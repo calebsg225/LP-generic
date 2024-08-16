@@ -1,5 +1,26 @@
 @media (min-width: 800px) {
-  #header-component {
-    background-color: peru;
+  .hide-nav {
+    display: flex;
   }
+
+  #header-navbar {
+    flex-direction: row;
+    position: relative;
+    inset: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  #hamburger-icon {
+    display: none;
+  }
+
+  #navbar-space-button {
+    display: none;
+  }
+
+  #exit-hamburger-menu {
+    display: none;
+  }
+
 }
