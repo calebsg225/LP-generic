@@ -1,5 +1,6 @@
 :root {
   --header-height: 3rem;
+  --hamburger-menu-space-width: 25vw;
 }
 
 body {
