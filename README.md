@@ -1,2 +1,2 @@
-# Generic Landing Page
-- using only JS, HTML, CSS
+# [Generic Landing Page](https://calebsg225.github.io/LP-generic/)
+- using vanilla JS, HTML, CSS
