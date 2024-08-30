@@ -1,8 +1,43 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --header-height: 3rem;
-  --hamburger-menu-space-width: 25vw;
+
+  /* color variables */
+
+  /* primary */
+  --prim-900: hsl(248 100 11);
+  --prim-700: hsl(256 100 24);
+  --prim-500: hsl(255 100 36);
+  --prim-300: hsl(236 100 70);
+  --prim-100: hsl(216 100 90);
+
+  /* secondary */
+  --sec-900: hsl();
+  --sec-700: hsl();
+  --sec-500: hsl();
+  --sec-300: hsl();
+  --sec-100: hsl();
+
+  /* greys */
+  --grey-900: hsl(208 24 14);
+  --grey-700: hsl(210 16 31);
+  --grey-500: hsl(210 5 53);
+  --grey-300: hsl(212 16 77);
+  --grey-100: hsl(226 32 92);
+
+  --grey-op: hsla(210, 5%, 53%, .3);
+
+  /* font */
+  --f-xs: 8px;
+  --f-sm: 12px;
+  --f-md: 16px;
+  --f-lg: 20px;
+  --f-xl: 28px;
 }
 
 body {
   margin: 0;
+  font-family: 'Noto Serif';
 }
