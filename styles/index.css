@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --header-height: 3rem;
+  --header-height: 4rem;
 
   /* color variables */
 
@@ -10,6 +10,7 @@
   --prim-900: hsl(248 100 11);
   --prim-700: hsl(256 100 24);
   --prim-500: hsl(255 100 36);
+  --prim-400: hsl(255, 91%, 45%);
   --prim-300: hsl(236 100 70);
   --prim-100: hsl(216 100 90);
 
