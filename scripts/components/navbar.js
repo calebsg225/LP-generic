@@ -5,7 +5,7 @@ const navbar = document.createElement('nav');
 navbar.id = 'header-navbar';
 navbar.className = 'hide-nav';
 
-const mainTitles = ['Services', 'About', 'Contact', 'Join Today'];
+const mainTitles = ['Services', 'About', 'Contact', 'Join Generic'];
 
 const elements = [];
 for (const title of mainTitles) {

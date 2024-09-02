@@ -1,5 +1,5 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --header-height: 4rem;
@@ -7,12 +7,14 @@
   /* color variables */
 
   /* primary */
-  --prim-900: hsl(248 100 11);
-  --prim-700: hsl(256 100 24);
-  --prim-500: hsl(255 100 36);
-  --prim-400: hsl(255, 91%, 45%);
-  --prim-300: hsl(236 100 70);
-  --prim-100: hsl(216 100 90);
+  --prim-900: hsl(0 0 0);
+  --prim-700: hsl(0 0 25);
+  --prim-600: hsl(0 0 31);
+  --prim-500: hsl(0 0 50);
+  --prim-400: hsl(0 0 62);
+  --prim-300: hsl(0 0 75);
+  --prim-200: hsl(0 0 83);
+  --prim-100: hsl(0 0 100);
 
   /* secondary */
   --sec-900: hsl();
@@ -31,14 +33,17 @@
   --grey-op: hsla(210, 5%, 53%, .3);
 
   /* font */
-  --f-xs: 8px;
-  --f-sm: 12px;
-  --f-md: 16px;
-  --f-lg: 20px;
-  --f-xl: 28px;
+  --f-50: 8px;
+  --f-100: 12px;
+  --f-200: 16px;
+  --f-300: 20px;
+  --f-400: 28px;
+  --f-500: 34px;
+  --f-600: 48px;
+  --f-700: 62px;
 }
 
 body {
   margin: 0;
-  font-family: 'Noto Serif';
+  font-family: 'Rokkitt';
 }

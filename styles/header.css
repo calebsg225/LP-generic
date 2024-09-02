@@ -36,12 +36,13 @@ nav button {
   padding: 1rem;
   border: none;
   margin: .5rem;
-  background-color: var(--prim-100);
-  font-size: var(--f-lg);
+  background-color: var(--prim-200);
+  font-family: inherit;
+  font-size: var(--f-400);
   font-weight: 700;
   color: var(--prim-900);
-  border-top: solid 3px var(--prim-100);
-  border-bottom: solid 3px var(--prim-100);
+  border-top: solid 3px var(--prim-200);
+  border-bottom: solid 3px var(--prim-200);
 }
 
 nav button:hover {
@@ -50,16 +51,16 @@ nav button:hover {
 }
 
 #join-nav-button {
-  background-color: var(--prim-500);
-  color: var(--prim-100);
-  border-top: solid 3px var(--prim-500);
-  border-bottom: solid 3px var(--prim-500);
+  background-color: var(--prim-900);
+  color: var(--prim-200);
+  border-top: solid 3px var(--prim-900);
+  border-bottom: solid 3px var(--prim-900);
 }
 
 #join-nav-button:hover {
-  border-bottom: 3px solid var(--prim-400);
-  border-top: 3px solid var(--prim-400);
-  background-color: var(--prim-400);
+  border-bottom: 3px solid var(--prim-700);
+  border-top: 3px solid var(--prim-700);
+  background-color: var(--prim-700);
 }
 
 #hamburger-icon {
