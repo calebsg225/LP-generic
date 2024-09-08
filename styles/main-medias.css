@@ -1,0 +1,27 @@
+@media (min-width: 1400px) {
+  #main-component {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem 8rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  #content-container h1 {
+    font-size: var(--f-800);
+    max-width: 55rem;
+  }
+
+  #content-container h2 {
+    font-size: var(--f-600);
+  }
+
+  #content-container button {
+    font-size: var(--f-700);
+    padding: 1.5rem 5rem;
+  }
+
+  #image-container {
+    width: min(80vw, 50rem);
+  }
+}
