@@ -1,14 +1,20 @@
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   .hide-nav {
     display: flex;
   }
 
   #header-navbar {
+    flex: auto;
     flex-direction: row;
+    max-width: 40rem;
     position: relative;
     inset: 0;
     padding: 0;
     background-color: rgba(0, 0, 0, 0);
+  }
+
+  nav button {
+    margin: 0 0 0 auto;
   }
 
   #hamburger-icon {

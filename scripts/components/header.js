@@ -7,7 +7,7 @@ header.id = 'header-component';
 
 const logo = document.createElement('img');
 logo.id = 'generic-logo';
-logo.src = './assets/generic-logo-2.png';
+logo.src = './assets/generic-logo.png';
 logo.alt = 'generic_logo';
 
 const hamburgerIcon = document.createElement('img');

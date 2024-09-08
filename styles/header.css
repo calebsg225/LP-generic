@@ -18,7 +18,7 @@
   align-items: stretch;
   position: fixed;
   inset: 0 0 0 auto;
-  min-width: 300px;
+  min-width: min(var(--sidebar-width), 100vw);
   background-color: white;
   padding-top: calc(var(--header-height) + 1rem);
 }
@@ -34,8 +34,8 @@
 nav button {
   cursor: pointer;
   padding: 1rem;
-  border: none;
   margin: .5rem;
+  border: none;
   background-color: var(--prim-200);
   font-family: inherit;
   font-size: var(--f-400);
@@ -71,7 +71,7 @@ nav button:hover {
 #navbar-space-button {
   position: fixed;
   z-index: 10;
-  inset: 0 300px 0 0;
+  inset: 0 min(var(--sidebar-width), 100vw) 0 0;
   background-color: var(--grey-op);
 }
 
