@@ -16,10 +16,12 @@
   aspect-ratio: 1/1;
   cursor: pointer;
   border: none;
-  background-color: var(--prim-200);
+  padding: .2rem;
+  background-color: var(--prim-100);
 }
 
 #sponsor-container button img {
+  display: block;
   width: 100%;
   object-fit: cover;
 }
